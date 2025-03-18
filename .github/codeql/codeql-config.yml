@@ -1,0 +1,5 @@
+name: "CodeQL Advanced Config"
+queries:
+  - security-extended
+  - security-and-quality
+  
