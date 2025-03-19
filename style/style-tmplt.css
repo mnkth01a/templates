@@ -24,12 +24,13 @@ Values
 
       The width and height properties include the content, padding, and border, but do not include the margin. Note that padding and border will be inside of the box. For example, .box {width: 350px; border: 10px solid black;} renders a box that is 350px wide, with the area for content being 330px wide. The content box can't be negative and is floored to 0, making it impossible to use border-box to make the element disappear. 
 */
-* {
+html,
+body {
    box-sizing: border-box;
 }
 
 
-/* Set the defaults for the entire document */
+/* Setting the base font size to 14px for better readability and consistent scaling across the document */
 html {
    font-size: 14px;
 }
