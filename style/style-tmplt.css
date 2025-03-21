@@ -156,8 +156,7 @@ main {
 }
 
 aside {
-   display: flex;
-   flex-direction: column;
+   display: block;
 
    grid-area: sd;
    /*        row col  row end  col end  */
