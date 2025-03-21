@@ -16,5 +16,7 @@
       "command": "extension.execute",
       "priority": 4
     }
-  ]
+  ],
+  "editor.scrollbar.horizontalScrollbarSize": 14,
+  "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true
 }
