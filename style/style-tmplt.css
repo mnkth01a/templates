@@ -47,7 +47,7 @@ body {
    grid-template-columns: repeat(12, [col_start] 1fr);
    grid-auto-rows: minmax(50px, auto);
 
-   grid-gap: 30px 10px;
+   grid-gap: 1px;
 
    /* Responsive: Small screen setup */
    grid-template-areas:
@@ -58,7 +58,7 @@ body {
       "ad"
       "ft";
 
-   background-color: #fff;
+   background-color: #000000;
 
    background-image: url('#');
    background-size: cover;
@@ -70,8 +70,8 @@ body {
 
    padding: 0;
 
-   border: 5px dashed #000;
-   border-radius: 3rem;
+   border: 5px dashed #fff;
+   border-radius: 3px;
 
    z-index: -1;
 }
@@ -233,8 +233,8 @@ main,
 aside,
 #ad_id,
 footer {
-   border: 2px solid #000;
-   border-radius: 2rem;
+   border: 1px solid #000;
+   border-radius: 3px;
 }
 
 
