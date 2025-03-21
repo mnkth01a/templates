@@ -156,7 +156,8 @@ main {
 }
 
 aside {
-   display: block;
+   display: flex;
+   flex-direction: column;
 
    grid-area: sd;
    /*        row col  row end  col end  */
@@ -175,7 +176,7 @@ aside {
 
 #ad_id {
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
 
    grid-area: ad;
    /*        row col  row end  col end  */
@@ -188,6 +189,14 @@ aside {
    font-family: 'Abril Fatface', sans-serif;
    font-size: 0.75rem;
    font-weight: 400;
+}
+
+#ad_id .badge-base {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   margin-top: 10px;
 }
 
 footer {
